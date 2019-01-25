@@ -17,38 +17,38 @@ Besides, use a buzzer to play music when the indicator is on.
 
 ## Library & API
 **SPI**</br>
-```signed char WriteSPI(unsigned char);```
+```signed char WriteSPI(unsigned char);```</br>
 </br>
 **max7219**</br>
-```void init_MAX7219(void);```
-```void MAX7219_1Unit(unsigned char , unsigned char);```
+```void init_MAX7219(void);```</br>
+```void MAX7219_1Unit(unsigned char , unsigned char);```</br>
 </br>
 **dot_matrix**</br>
-```void Draw(unsigned short *, int);```
-```void TurnRight(void);```
-```void TurnLeft(void);```
-```void Close(void);```
-```void Stop(int)```
-```void TurnOff()```
+```void Draw(unsigned short *, int);```</br>
+```void TurnRight(void);```</br>
+```void TurnLeft(void);```</br>
+```void Close(void);```</br>
+```void Stop(int)```</br>
+```void TurnOff()```</br>
 </br>
 **sound**</br>
-```void delay_ms(unsigned int milliseconds);```
-```void PWM1_Init(long desired_frequency);```
-```int PWM_Max_Duty();```
-```void PWM1_Duty(unsigned int duty);```
-```void PWM1_Mode_On();```
-```void PWM1_Start();```
-```void PWM1_Stop();```
-```void playTone();```
+```void delay_ms(unsigned int milliseconds);```</br>
+```void PWM1_Init(long desired_frequency);```</br>
+```int PWM_Max_Duty();```</br>
+```void PWM1_Duty(unsigned int duty);```</br>
+```void PWM1_Mode_On();```</br>
+```void PWM1_Start();```</br>
+```void PWM1_Stop();```</br>
+```void playTone();```</br>
 </br>
 **hc-05**</br>
-```void HC_05_Init();```
-```void receiveMsg();```
+```void HC_05_Init();```</br>
+```void receiveMsg();```</br>
 </br>
 **uart**</br>
-```void USART_Init(long);```
-```char USART_ReceiveChar(void);```
-```char USART_ReceiveChar_RCREG(void);```
+```void USART_Init(long);```</br>
+```char USART_ReceiveChar(void);```</br>
+```char USART_ReceiveChar_RCREG(void);```</br>
 </br>
 **dot_matrix**</br>
 ```void External_Interrupt_Init();```
