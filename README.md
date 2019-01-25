@@ -1,9 +1,10 @@
 # Direction Indicator
 A bicycle direction indicator controlled by the button or [Android APP](https://github.com/cyj407/Voice-Controller).
+</br>
 Besides, use a buzzer to play music when the indicator is on.
 
 ## Circuit Diagram
-<src="https://i.imgur.com/5CPq6mR.jpg">
+![](https://i.imgur.com/7kpzjct.png)
 
 ## Demo Photo
 <img width="330" height="250" src="https://i.imgur.com/5CPq6mR.jpg">
@@ -15,22 +16,22 @@ Besides, use a buzzer to play music when the indicator is on.
 * Write in C language.
 
 ## Library & API
-**SPI**
+**SPI**</br>
 ```signed char WriteSPI(unsigned char);```
-
-**max7219**
+</br>
+**max7219**</br>
 ```void init_MAX7219(void);```
 ```void MAX7219_1Unit(unsigned char , unsigned char);```
-
-**dot_matrix**
+</br>
+**dot_matrix**</br>
 ```void Draw(unsigned short *, int);```
 ```void TurnRight(void);```
 ```void TurnLeft(void);```
 ```void Close(void);```
 ```void Stop(int)```
 ```void TurnOff()```
-
-**sound**
+</br>
+**sound**</br>
 ```void delay_ms(unsigned int milliseconds);```
 ```void PWM1_Init(long desired_frequency);```
 ```int PWM_Max_Duty();```
@@ -39,15 +40,15 @@ Besides, use a buzzer to play music when the indicator is on.
 ```void PWM1_Start();```
 ```void PWM1_Stop();```
 ```void playTone();```
-
-**hc-05**
+</br>
+**hc-05**</br>
 ```void HC_05_Init();```
 ```void receiveMsg();```
-
-**uart**
+</br>
+**uart**</br>
 ```void USART_Init(long);```
 ```char USART_ReceiveChar(void);```
 ```char USART_ReceiveChar_RCREG(void);```
-
-**dot_matrix**
+</br>
+**dot_matrix**</br>
 ```void External_Interrupt_Init();```
